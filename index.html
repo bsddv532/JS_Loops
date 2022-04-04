@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <h1><u>JAVASCRIPT LOOPS</u></h1>
+    <ol>
+        <li><b>For Loop:-</b>
+            When we know exactly how many times the loop is going to be executed then we will use for loop. <br>
+            <b>Syntax:- </b>
+            <pre>
+            for (initialization; condition; increment/decrement)  
+                {  
+                 code to be executed  
+                }  
+             </pre>
+        </li>
+
+        <li><b>While Loop:-</b>
+            When you don't know exactly how many times the loop is going to be executed then we will use while loop. <br>
+            <b>Syntax:- </b>
+            <pre>
+                while (condition)  
+                {  
+                 code to be executed  
+                 increment/decrement(++/--)
+                }  
+            
+            </pre>
+        </li>
+
+        <li><b>Do-while Loop:-</b>
+            The do...while statement creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once.<br>
+
+            <b>Syntax:- </b>
+            <pre>
+                do{  
+                    code to be executed  
+                    increment/decrement(++/--)
+                }while (condition); 
+                
+            </pre>
+        </li>
+    </ol>
+
+    <h3>Q. Print the table of 13</h3>
+    <div class="Answer">
+    <pre>
+    for(let i=1; i<=10; i++){
+        console.log(13 + "*" + i + "=" + 13*i);
+    }
+    </pre>
+
+        Output:-
+        <pre>
+        13 X 0 = 0
+        13 X 1 = 13
+        13 X 2 = 26
+        13 X 3 = 39
+        13 X 4 = 52
+        13 X 5 = 65
+        13 X 6 = 78
+        13 X 7 = 91
+        13 X 8 = 104
+        13 X 9 = 117
+        13 X 10 = 130
+        </pre>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
